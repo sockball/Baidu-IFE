@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=gb2312"/>
+<title>零基础HTML编码</title>
+</head>
+<body>
+<h1>网站一级标题</h1><br/>
+<ul>
+<li><a href="#1">文章1</a></li>
+<li><a href="#2">文章2</a></li>
+<li><a href="#3">文章3</a></li>
 
+<a name="1"><h2>文章一级标题</h2></a>
+<h3>文章二级标题</h3></a>
+文章作者 文章发表时间<br/>
+这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的段落这是一个很长的<br/>
+换行了<br/>
+这是一个很长的段落这这是一个很长的段落这这是一个很长的段落这这是一个很长的段落这这是一个很长的段落这这是一个很长的段落这 换行了.<br/>
+是一个很长是一个很长是一个很长是一个很长<a href="http://www.baidu.com">这里链接到百度</a>个很个很个很个很个很<br/>
+个很个很个很个很<b>这里变粗了</b>个很个很个很长的段落个很长的段落个很长的段落个很长的段落个很长的段落个很长的段落<br/>
+<img src="http://114.imagebam.com/download/eco3gce-ZBlRyM1AnS31BA/47285/472840424/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B21-36-00%5D.JPG"/><br/>
+是一个很长是一个很长是一个很长是一个很长<a href="http://www.baidu.com">这里链接到百度</a>个很个很个很个很个很<br/>
+<a name="2"><h2>另一篇文章一级标题</h2></a>
+<h3>文章二级标题</h3>
+<ul>
+<li>项目一</li>
+<li>项目二</li>
+<li>项目三</li>
+<li>项目四</li> </ul><br/>
+<h2>图片</h2>
+  &nbsp;&nbsp;&nbsp;好看的图片<br/>
+		<img src="http://113.imagebam.com/download/z9k8U7XusV12AdxIN4xR0w/47285/472840429/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B21-36-12%5D.JPG"/><br/>
+        &nbsp;&nbsp;&nbsp;好看的图片<br/>
+		<img src="http://114.imagebam.com/download/eco3gce-ZBlRyM1AnS31BA/47285/472840424/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B&nbsp;21-36-00%5D.JPG"/><br/>
+        &nbsp;&nbsp;&nbsp;好看的图片<br/>		<img src="http://114.imagebam.com/download/eco3gce-ZBlRyM1AnS31BA/47285/472840424/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B21-36-00%5D.JPG"/><br/>
+        &nbsp;&nbsp;&nbsp;好看的图片<br/>		<img src="http://113.imagebam.com/download/z9k8U7XusV12AdxIN4xR0w/47285/472840429/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B21-36-12%5D.JPG"/><br/>        &nbsp;&nbsp;&nbsp;好看的图片<br/>
+		<img src="http://113.imagebam.com/download/z9k8U7XusV12AdxIN4xR0w/47285/472840429/%5BDMG%5D%5BArakawa%20Under%20the%20Bridge%20x%20Bridge%5D%5B05%5D%5B1280x720%5D%5BGB%5D%5B21-36-12%5D.JPG"/><br/>      
+<a name="3"><h2>最后一篇文章一级标题</h2></a>
+<h3>文章二级标题</h3>
+文章作者 文章发表时间
+<ol>
+<li>排名1</li>
+<li>排名2</li>
+<li>排名3</li>
+</ol><br/>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格<br/>
+<table border="1">
+<th align="left">表头</th>
+<th align="left">表头</th>
+<th align="left">表头</th>
+<tr> <td>表内容单元格</td><td>表内容单元格</td>
+  <td><input type="button" name="shanchu" value="删除"/></td></tr>
+<tr> <td>表内容单元格</td><td>表内容单元格</td><td><input type="button" name="shanchu" value="删除" onClick=confirm("是否删除")/></td>
+</tr>
+<tr> <td>表内容单元格</td><td>表内容单元格</td><td><input type="button" name="shanchu" value="删除" onClick=confirm("是否删除")/></td>
+</tr>
+<tr><td>总计</td><td colspan="2">1000</td>
+</tr>
+</table>
+<br/>
+<h1>这里以后是一个侧栏，这是侧栏的标题</h1>
+<h2>侧栏注册窗口标题</h2>
+<form name="fff" method="post" action="">请输入邮箱地址：<input name="name" type="text" size="20" value="这是一个文本输入框"/><br/><br/>
+邮箱地址请按要求格式输入<br/><br/>
+请输入密码：<input name="name" type="password" size="20" value="这是一个文本输入框"/>&nbsp;&nbsp;请重复输入密码：<input name="name" type="password" size="20" value="这是一个文本输入框"/><br/>
+密码请为6-16位英文数字<br/><br/>
+性别：<input name="name" type="radio" value="1" checked="checked"/>男&nbsp;<input name="name" type="radio" value="1"/>女&nbsp;
+城市：<select name="1" size="1"><option value="北京">北京</option>
+<option value="天津" selected="selected">天津</option>
+<option value="南京">南京</option>
+</select>
+爱好：<input name="1" type="checkbox" value="checkbox" checked="checked"/>运动&nbsp;<input name="1" type="checkbox" value="checkbox"/>艺术&nbsp;
+<input name="1" type="checkbox" value="checkbox"/>科学 
+个人描述：
+<textarea name="1" cols="20" rows="2">这是一个多行输入框</textarea> <input name="1" type="submit" value="确认提交"/>
+</form><br/>
+版权所有&copy;by Web_helloworld
+
+</body>
+</html>
