@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	} 
+.x1{
+    margin:20px;
+    padding:20px;
+	background-color:#eee;
+	border:1px solid #999;
+	height:440px;
+	}
+.x2{
+	text-align:center;
+	width:160px;
+	border:1px solid #999;
+	background-color:white;
+	padding:20px;
+	float:left;
+	height:80px;
+	vertical-align:middle;
+	}
+.x2>img{
+	float:left;
+	}
+.x3{
+	float:right;
+	padding:10px 0;
+	width:120px;
+	border:1px solid #999;
+	background-color:white;
+	text-align: center;
+	}
+.x3>img{
+		margin:10px;
+		}
+.x4{
+	padding:20px;
+	width:auto;
+	border:1px solid #999;
+	background-color:white;
+    margin:auto 140px auto 220px;
+	line-height:1.5em;
+	}
